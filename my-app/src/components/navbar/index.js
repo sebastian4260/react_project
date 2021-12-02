@@ -6,25 +6,28 @@ const Navbar = () => {
     <>
       <Nav>
         <NavLink to="/">
-          <h1>Logo</h1>
+          <h1>Smart Shop</h1>
         </NavLink>
         <Bars />
         <NavMenu>
-          <NavLink to="/about" activeStyle>
-            About
+          <NavLink to="/apple" activeStyle>
+            Apple
           </NavLink>
-          <NavLink to="/services" activeStyle>
-            Services
+          <NavLink to="/samsung" activeStyle>
+            Samsung
           </NavLink>
-          <NavLink to="/contact-us" activeStyle>
-            Contact Us
+          <NavLink to="/xiaomi" activeStyle>
+            Xiaomi
           </NavLink>
-          <NavLink to="/sign-up" activeStyle>
-            Sign Up
+          <NavLink to="/otros" activeStyle>
+            Otras Marcas
+          </NavLink>
+          <NavLink to="/registro" activeStyle>
+            Registrarse
           </NavLink>
         </NavMenu>
         <NavBtn>
-          <NavBtnLink to="/signin">Sign In</NavBtnLink>
+          <NavBtnLink to="/signin">Iniciar Sesion</NavBtnLink>
         </NavBtn>
       </Nav>
     </>
